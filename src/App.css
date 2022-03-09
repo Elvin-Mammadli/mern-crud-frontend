@@ -60,7 +60,7 @@ input {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
 
 /* Down part */
@@ -97,5 +97,24 @@ input {
 
 .cardbtn {
   margin: 0 5px;
-  padding: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.cardbtn:active {
+  box-shadow: none;
+}
+
+.update {
+  background-color: rgb(233, 169, 73);
+}
+
+.delete {
+  background-color: #ff4040;
 }
