@@ -60,7 +60,7 @@ function App() {
           value={age} onChange={e => setAge(e.target.value)}
         />
         <button className='add'>Add</button>
-      </form>
+      </form >
       <div className="down">
         {users.map((user, index) => (
           <div key={index} className="card">
@@ -74,7 +74,7 @@ function App() {
           </div>
         ))}
       </div>
-    </div>
+    </div >
   );
 }
 
